@@ -49,6 +49,13 @@ atlassian-ide-plugin.xml
 *.py[cod] 
 *$py.class 
 
+
+# code former pre trined models
+
+.detection_Resnet50_Final.pth
+.parsing_parsenet.pth
+.codeformer.pth
+
 # Distribution / packaging 
 .Python build/ 
 develop-eggs/ 
